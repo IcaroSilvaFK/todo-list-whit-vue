@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #7c3aed;
+}
+
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Poppins', sans-serif;
+  background: #171923;
+  color: #f7fafc;
+
+  display: flex;
+  flex-direction: column;
+}
